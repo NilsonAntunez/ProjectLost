@@ -150,10 +150,10 @@ header img {
   
 
 /*
-QUEM SOMOS
+TERROR
 */
 
-#quemsomos {
+#terror {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,65 +163,71 @@ QUEM SOMOS
     color: #f1f1f1;
 }
 
-#quemsomos p {
+#terror p {
     margin-bottom: 2.5em;
     max-width: 1000px;
 
 }
 
-#quemsomos .botao {
-    background-color: #f1f1f1;
-    color: #4d4d4d;
-}
 
 /*
-SERVIÇOS
+FPS
 */
 
-#servicos {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#servicos div {
+#fps {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 30px;
+    padding: 0 20px 20px;
+    background-color: #8f3faf;
+    color: #f1f1f1;
+}
+
+#fps p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+
 }
 
 /*
-PORTFOLIO
+Esporte
 */
 
-#portfolio {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
-}
-
-#portfolio h2 {
-    margin-bottom: 20px;
-}
-
-#portfolio img {
-    width: 100%;
-}
-
-/*
-CONTATO
-*/
-
-#contato {
+#esporte {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 0 20px 20px;
+    background-color: #8f3faf;
+    color: #f1f1f1;
+}
+
+#esporte p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+
+}
+
+/*
+Corrida
+*/
+
+#corrida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px 20px;
+    background-color: #8f3faf;
+    color: #f1f1f1;
+}
+
+#corrida p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+
 }
 
 /*
@@ -263,65 +269,40 @@ MEDIA QUERIES
     }
 
     /*
-    #quemsomos
+    #TERROR
     */
-
-    #quemsomos {
+    #terror {
         height: 250px;
         height: 30vh;
         justify-content: center;
         min-height: 250px;
     }
-
     /*
-    SERVICOS
+    FPS
     */
-    #servicos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    #servicos h2 {
-        text-align: center;
-        width: 100%;
-    }
-
-    #servicos div {
-        flex-grow: 1;
-        flex-basis: 150px;
-        padding: 0 10px;
+    #fps {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
     }
     /*
-    PORTFOLIO
+    ESPORTE
     */
-    #portfolio {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    #portfolio h2 {
-        width: 100%;
-        text-align: center;
-    }
-    #portfolio img {
-        width: 33.3333333333%;
+    #esporte {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
     }
     /*
-    CONTATO 
+    corrida
     */
-    #contato {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-    #contato h2,
-    #contato p {
-        width: 100%;
+    #corrida {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
     }
 
 }
