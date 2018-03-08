@@ -61,7 +61,7 @@ CABEÇALHO
 */
 
 header {
-    background-image: url('../img/fundo.jpg');
+    background-image: url('../img/backindex.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,12 +70,13 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 250px;
     margin-top: -16px;
 }
 
+
 header p {
-    margin-bottom: 2em;
+    margin-bottom: 3em;
     
 }
 
@@ -93,6 +94,7 @@ header img {
     padding: 0;
     
 }
+
 
 .conteudo {
     display: table;
